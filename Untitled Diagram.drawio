@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T09:40:12.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nXAWXlYHDoZAmJUKyMtf" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T00:57:39.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8tv5dG6KsVNIbOobtsnp" version="20.3.3" type="github">
   <diagram id="QV7WSURew1L8CR_t5h_A" name="Page-1">
     <mxGraphModel dx="1385" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,28 +46,31 @@
         <mxCell id="REe1SN3m4aF6AB17_GGe-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="REe1SN3m4aF6AB17_GGe-13" vertex="1">
           <mxGeometry x="120" width="510" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-22" value="配电结构网络模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9800" parent="REe1SN3m4aF6AB17_GGe-13" vertex="1">
+        <mxCell id="REe1SN3m4aF6AB17_GGe-22" value="配电网络模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9800" parent="REe1SN3m4aF6AB17_GGe-13" vertex="1">
           <mxGeometry x="150" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-24" value="断路器选择性&lt;br&gt;分析服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF176" parent="REe1SN3m4aF6AB17_GGe-13" vertex="1">
           <mxGeometry x="460" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-23" value="SCADA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2" parent="REe1SN3m4aF6AB17_GGe-13" vertex="1">
+        <mxCell id="REe1SN3m4aF6AB17_GGe-23" value="设备通信服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2" parent="REe1SN3m4aF6AB17_GGe-13" vertex="1">
           <mxGeometry x="300" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-25" value="通讯&lt;br&gt;" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="REe1SN3m4aF6AB17_GGe-13" vertex="1">
-          <mxGeometry x="326" y="80" width="74" height="100" as="geometry" />
+        <mxCell id="REe1SN3m4aF6AB17_GGe-25" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=red;" parent="REe1SN3m4aF6AB17_GGe-13" vertex="1">
+          <mxGeometry x="350" y="80" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q5_8VG_Vw6QYsesVrGi5-2" value="网络通信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="REe1SN3m4aF6AB17_GGe-13">
+          <mxGeometry x="370" y="115" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="REe1SN3m4aF6AB17_GGe-29" target="REe1SN3m4aF6AB17_GGe-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-29" value="配电结构网络模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9800" parent="1" vertex="1">
+        <mxCell id="REe1SN3m4aF6AB17_GGe-29" value="配电网络模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9800" parent="1" vertex="1">
           <mxGeometry x="230" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="REe1SN3m4aF6AB17_GGe-30" target="REe1SN3m4aF6AB17_GGe-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-30" value="SCADA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2" parent="1" vertex="1">
+        <mxCell id="REe1SN3m4aF6AB17_GGe-30" value="设备通信服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2" parent="1" vertex="1">
           <mxGeometry x="230" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-33" value="通讯" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="REe1SN3m4aF6AB17_GGe-32" target="REe1SN3m4aF6AB17_GGe-30" edge="1">
