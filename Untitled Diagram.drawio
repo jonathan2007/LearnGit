@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T00:57:39.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8tv5dG6KsVNIbOobtsnp" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T08:20:49.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="W5hYtJdVHqgZ9o4Cq1k-" version="20.3.3" type="github">
   <diagram id="QV7WSURew1L8CR_t5h_A" name="Page-1">
-    <mxGraphModel dx="1385" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2235" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,38 +61,51 @@
         <mxCell id="q5_8VG_Vw6QYsesVrGi5-2" value="网络通信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="REe1SN3m4aF6AB17_GGe-13">
           <mxGeometry x="370" y="115" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="REe1SN3m4aF6AB17_GGe-29" target="REe1SN3m4aF6AB17_GGe-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-29" value="配电网络模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9800" parent="1" vertex="1">
-          <mxGeometry x="230" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="REe1SN3m4aF6AB17_GGe-30" target="REe1SN3m4aF6AB17_GGe-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-30" value="设备通信服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCDD2" parent="1" vertex="1">
-          <mxGeometry x="230" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-33" value="通讯" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="REe1SN3m4aF6AB17_GGe-32" target="REe1SN3m4aF6AB17_GGe-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-32" value="断路器设备" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="830" width="100" height="60" as="geometry" />
+        <mxCell id="REe1SN3m4aF6AB17_GGe-33" value="通讯" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q5_8VG_Vw6QYsesVrGi5-5" target="REe1SN3m4aF6AB17_GGe-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="860" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="REe1SN3m4aF6AB17_GGe-34" target="REe1SN3m4aF6AB17_GGe-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-34" value="获得配电室中各级断路器型号和实际参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="435" y="780" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="REe1SN3m4aF6AB17_GGe-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="REe1SN3m4aF6AB17_GGe-37" target="REe1SN3m4aF6AB17_GGe-43" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="252.5" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-37" value="断路器选择性&lt;br&gt;分析服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF176" parent="1" vertex="1">
-          <mxGeometry x="435" y="935" width="120" height="60" as="geometry" />
+          <mxGeometry x="252.5" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="REe1SN3m4aF6AB17_GGe-43" value="生成配电室的&lt;br&gt;断路器选择性分析报告" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="205" y="930" width="145" height="70" as="geometry" />
+          <mxGeometry x="240" y="1350" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q5_8VG_Vw6QYsesVrGi5-5" value="断路器设备" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5_8VG_Vw6QYsesVrGi5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5_8VG_Vw6QYsesVrGi5-6" target="REe1SN3m4aF6AB17_GGe-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5_8VG_Vw6QYsesVrGi5-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q5_8VG_Vw6QYsesVrGi5-7">
+          <mxGeometry x="-0.2375" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5_8VG_Vw6QYsesVrGi5-6" value="是否遍历结束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="1190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5_8VG_Vw6QYsesVrGi5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q5_8VG_Vw6QYsesVrGi5-9" target="REe1SN3m4aF6AB17_GGe-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5_8VG_Vw6QYsesVrGi5-9" value="获得配电室中各级断路器型号和参数点位" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FF9800" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q5_8VG_Vw6QYsesVrGi5-11" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
